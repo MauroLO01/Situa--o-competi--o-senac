@@ -13,8 +13,6 @@ function Formulario() {
 
                     <label htmlFor='dataNascimento'>Data de Nascimento:</label>
                     <input type="date" id='dataNascimento' />
-
-
                 </div>
             </section>
         </>

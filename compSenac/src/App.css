@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: gray;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  color: #1E3A5F;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 26px;
+  line-height: 1.4;
+  margin-right: 15px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 15px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #ffd54f, #ffb300);
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.logoComp {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.chamando h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: black;
+}
+
+.chamando p {
+  font-size: 18px;
+  color: black;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.ocupacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+}
+
+.ocupacoes h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #1E3A5F;
+}
+
+select {
+  width: 250px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #1E3A5F;
+
+  outline: none;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  margin-top: 10px;
+}

@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import webImg from '../assets/AplicacoesWebMobile.png'
-import cabeloImg from '../assets/Cabeleireiro.png'
+import webImg from '../assets/AplicacoeWebMobile.png'
+import cabeloImg from '../assets/Cabelereiro.png'
 import cuidadosImg from '../assets/CuidadosSaudeApoioSocial.png'
 import devImg from '../assets/DesenvolvimentoSistemas.png'
 import esteticaImg from '../assets/Esteticabem-estar.png'

@@ -2,21 +2,32 @@ import { useState } from 'react'
 
 function Formulario() {
     return (
-        <>
-            <section>
-                <div className='formulario'>
-                    <label htmlFor='nome'>Nome:</label>
-                    <input type="text" id='nome' placeholder='Digite seu nome...' />
-
-                    <label htmlFor='email'>Email:</label>
-                    <input type="email" id='email' placeholder='Digite seu email...' />
-
-                    <label htmlFor='dataNascimento'>Data de Nascimento:</label>
-                    <input type="date" id='dataNascimento' />
+        <section className="formulario-section">
+            <div className="formulario">
+                <div className="formulario-header">
+                    <h2>Cadastro do Aluno</h2>
+                    <p>Preencha os dados para continuar</p>
                 </div>
-            </section>
-        </>
-    )
+
+                <div className="campo">
+                    <label htmlFor="nome">Nome completo</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome..." />
+                </div>
+
+                <div className="campo">
+                    <label htmlFor="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite seu e-mail..." />
+                </div>
+
+                <div className="campo">
+                    <label htmlFor="dataNascimento">Data de nascimento</label>
+                    <input type="date" id="dataNascimento" />
+                </div>
+
+                <button className="btn-submit">Continuar</button>
+            </div>
+        </section>
+    );
 }
 
 export default Formulario;
